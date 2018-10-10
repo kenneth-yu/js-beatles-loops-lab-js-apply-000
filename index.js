@@ -16,10 +16,10 @@ function theBeatlesPlay(musicians, instruments){
   return answer
 }
 
-var facts =[];
+var fact =[];
 var counter = 0;
 var answer2 = [];
-function johnLennonFacts(facts){
+function johnLennonFacts(fact){
   while(counter < facts.length){
     answer2[counter] = facts[counter] + "!!!"
     counter++
