@@ -16,6 +16,10 @@ function theBeatlesPlay(musicians, instruments){
   return answer
 }
 
-function johnLennonFacts(){
+function johnLennonFacts(facts){
+  while()
+}
+
+function iLoveTheBeatles(){
   
 }
