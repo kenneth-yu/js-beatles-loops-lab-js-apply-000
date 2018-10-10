@@ -16,10 +16,13 @@ function theBeatlesPlay(musicians, instruments){
   return answer
 }
 
+
+var counter = 0;
 var answer2 = [];
 function johnLennonFacts(facts){
-  while(facts !=){
+  while(counter < facts.length){
     
+    counter++
   }
   return answer2;
 }
