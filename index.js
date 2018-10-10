@@ -4,11 +4,11 @@ var instruments= [];
 var largestArray = 0;
 var answer = [];
 function theBeatlesPlay(musicians, instruments){
-  if (musicians.length() > instruments.length()){
-    largestArray = musicians.length();
+  if (musicians.length > instruments.length){
+    largestArray = musicians.length;
   }
   else{
-    largestArray = instruments.length();
+    largestArray = instruments.length;
   }
   for(i = 0; i<largestArray;i++){
     answer[i] = musicians[i] + instruments[i];
