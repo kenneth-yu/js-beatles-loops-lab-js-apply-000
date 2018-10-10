@@ -1,13 +1,16 @@
 // add solution here
 var musicians[]
 var instruments[]
-const largestArray;
+var largestArray = 0;
 var answer[]
 function theBeatlesPlay(musicians, instruments){
   if (musicians.length() > instruments.length()){
-    largestArray = 
+    largestArray = musicians.length();
   }
-  for(i = 0; i<musicians.length();i++){
+  else{
+    largestArray = instruments.length();
+  }
+  for(i = 0; i<largestArray;i++){
     array[i] = musicians[i] + instruments[i];
   }
 }
