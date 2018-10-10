@@ -1,4 +1,6 @@
 // add solution here
-function theBeatlesPlay(musicians[], instruments[]){
+var musicians[]
+var instruments[]
+function theBeatlesPlay(musicians, instruments){
   
 }
