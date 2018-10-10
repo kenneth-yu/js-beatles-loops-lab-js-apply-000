@@ -11,7 +11,7 @@ function theBeatlesPlay(musicians, instruments){
     largestArray = instruments.length;
   }
   for(var i = 0; i<largestArray; i++){
-    answer[i] = musicians[i] + instruments[i];
+    answer[i] = musicians[i] + " plays " + instruments[i];
   }
   return answer
 }
