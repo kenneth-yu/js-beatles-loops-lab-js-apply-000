@@ -30,5 +30,6 @@ function iLoveTheBeatles(number){
   var answer3 = [];
   do while (number < 15){
     answer3[0] = "I love the Beatles!";
+    number++
   }
 }
