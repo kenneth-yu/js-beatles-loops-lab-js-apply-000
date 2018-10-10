@@ -21,6 +21,7 @@ var answer2 = [];
 function johnLennonFacts(facts){
   while(counter < facts.length){
     answer2[counter] = facts[counter] + "!!!"
+    console.log(facts[counter])
     counter++
   }
   return answer2;
