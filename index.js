@@ -2,7 +2,7 @@
 var musicians = [];
 var instruments= [];
 var largestArray = 0;
-var answer= [];
+var answer = [];
 function theBeatlesPlay(musicians, instruments){
   if (musicians.length() > instruments.length()){
     largestArray = musicians.length();
