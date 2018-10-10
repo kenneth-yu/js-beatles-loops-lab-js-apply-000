@@ -10,7 +10,7 @@ function theBeatlesPlay(musicians, instruments){
   else{
     largestArray = instruments.length;
   }
-  for(i = 0; i<largestArray; i++){
+  for(var i = 0; i<largestArray; i++){
     answer[i] = musicians[i] + instruments[i];
   }
   return answer
